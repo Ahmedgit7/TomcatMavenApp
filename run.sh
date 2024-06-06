@@ -8,5 +8,5 @@ if [[ $run_sonar == "YES" ]]; then
     -Dsonar.token=sqp_7722079c289d3fad20b7d0796884099765042e0a
 else
   echo "running maven without sonarqube"
-  - mvn clean verify
+  mvn clean verify
 fi
