@@ -7,6 +7,6 @@ if [[ $run_sonar == "YES" ]]; then
     -Dsonar.host.url=http://3.110.186.80:9000 \
     -Dsonar.token=sqp_7722079c289d3fad20b7d0796884099765042e0a
 else
-  echo "running maven without sonarqube"
+  echo "Running Maven without SonarQube"
   mvn clean verify
 fi
